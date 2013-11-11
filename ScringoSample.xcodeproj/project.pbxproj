@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4DBBE99A16E3934D00BADD9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE99916E3934D00BADD9C /* UIKit.framework */; };
-		4DBBE99C16E3934D00BADD9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE99B16E3934D00BADD9C /* Foundation.framework */; };
 		4DBBE99E16E3934D00BADD9C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE99D16E3934D00BADD9C /* CoreGraphics.framework */; };
 		4DBBE9A416E3934D00BADD9C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE9A216E3934D00BADD9C /* InfoPlist.strings */; };
 		4DBBE9A616E3934D00BADD9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBE9A516E3934D00BADD9C /* main.m */; };
@@ -22,24 +21,11 @@
 		4DBBE9C416E3956600BADD9C /* Bg@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE9C216E3956600BADD9C /* Bg@2x.jpg */; };
 		4DBBE9C716E3987C00BADD9C /* ItemBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE9C516E3987C00BADD9C /* ItemBg.png */; };
 		4DBBE9C816E3987C00BADD9C /* ItemBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBE9C616E3987C00BADD9C /* ItemBg@2x.png */; };
-		4DBBE9CB16E39A2600BADD9C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9C916E39A1900BADD9C /* SystemConfiguration.framework */; };
-		4DBBE9CF16E39A4600BADD9C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9CE16E39A4500BADD9C /* CoreLocation.framework */; };
 		4DBBE9D116E39A6200BADD9C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9D016E39A6200BADD9C /* MapKit.framework */; };
-		4DBBE9D316E39A7800BADD9C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9D216E39A7800BADD9C /* QuartzCore.framework */; };
-		4DBBE9D516E39A8700BADD9C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9D416E39A8600BADD9C /* Accounts.framework */; };
-		4DBBE9D716E39A8D00BADD9C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9D616E39A8D00BADD9C /* Twitter.framework */; };
 		4DBBE9D916E39A9300BADD9C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9D816E39A9300BADD9C /* CoreText.framework */; };
-		4DBBE9DB16E39A9B00BADD9C /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9DA16E39A9B00BADD9C /* AddressBook.framework */; };
-		4DBBEBD216E39FBA00BADD9C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBE9CC16E39A3700BADD9C /* MessageUI.framework */; };
-		A91896B11740BF9F009F46F9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A91896B01740BF9F009F46F9 /* AdSupport.framework */; };
-		A95FFC6B178BEED200E2E732 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95FFC6A178BEED200E2E732 /* AudioToolbox.framework */; };
-		A95FFC6F178BEF4E00E2E732 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95FFC6E178BEF4E00E2E732 /* Social.framework */; };
-		A95FFC71178BEF5B00E2E732 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95FFC70178BEF5B00E2E732 /* StoreKit.framework */; };
-		A95FFC76178BF19100E2E732 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95FFC6C178BEEF000E2E732 /* Security.framework */; };
 		A989B412177ADF3C00AB3D88 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B40F177ADF3C00AB3D88 /* Icon-72.png */; };
 		A989B413177ADF3C00AB3D88 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B410177ADF3C00AB3D88 /* Icon.png */; };
 		A989B414177ADF3C00AB3D88 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B411177ADF3C00AB3D88 /* Icon@2x.png */; };
-		A9AF86D2176F3A27005FCC80 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9AF86D1176F3A27005FCC80 /* MobileCoreServices.framework */; };
 		A9DB0BB317AFCBA500FBF73D /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DB0BB217AFCBA500FBF73D /* FacebookSDK.framework */; };
 		A9F753F41820F037001E37B8 /* correctSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = A9F753111820F036001E37B8 /* correctSound.aif */; };
 		A9F753F51820F037001E37B8 /* ScringoLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9F753121820F036001E37B8 /* ScringoLocalizable.strings */; };
@@ -295,7 +281,6 @@
 		A95FFC6A178BEED200E2E732 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A95FFC6C178BEEF000E2E732 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		A95FFC6E178BEF4E00E2E732 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		A95FFC70178BEF5B00E2E732 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A989B40F177ADF3C00AB3D88 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
 		A989B410177ADF3C00AB3D88 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
 		A989B411177ADF3C00AB3D88 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -533,25 +518,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A95FFC76178BF19100E2E732 /* Security.framework in Frameworks */,
-				A95FFC71178BEF5B00E2E732 /* StoreKit.framework in Frameworks */,
-				A95FFC6F178BEF4E00E2E732 /* Social.framework in Frameworks */,
-				4DBBE9D516E39A8700BADD9C /* Accounts.framework in Frameworks */,
-				A95FFC6B178BEED200E2E732 /* AudioToolbox.framework in Frameworks */,
-				A9AF86D2176F3A27005FCC80 /* MobileCoreServices.framework in Frameworks */,
 				A9F754CD1820F037001E37B8 /* Scringo.framework in Frameworks */,
-				A91896B11740BF9F009F46F9 /* AdSupport.framework in Frameworks */,
-				4DBBE9DB16E39A9B00BADD9C /* AddressBook.framework in Frameworks */,
 				4DBBE9D916E39A9300BADD9C /* CoreText.framework in Frameworks */,
-				4DBBE9D716E39A8D00BADD9C /* Twitter.framework in Frameworks */,
-				4DBBE99C16E3934D00BADD9C /* Foundation.framework in Frameworks */,
-				4DBBE9D316E39A7800BADD9C /* QuartzCore.framework in Frameworks */,
 				4DBBE99E16E3934D00BADD9C /* CoreGraphics.framework in Frameworks */,
-				4DBBEBD216E39FBA00BADD9C /* MessageUI.framework in Frameworks */,
 				4DBBE99A16E3934D00BADD9C /* UIKit.framework in Frameworks */,
 				4DBBE9D116E39A6200BADD9C /* MapKit.framework in Frameworks */,
-				4DBBE9CF16E39A4600BADD9C /* CoreLocation.framework in Frameworks */,
-				4DBBE9CB16E39A2600BADD9C /* SystemConfiguration.framework in Frameworks */,
 				A9DB0BB317AFCBA500FBF73D /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,7 +552,6 @@
 			isa = PBXGroup;
 			children = (
 				A9DB0BB217AFCBA500FBF73D /* FacebookSDK.framework */,
-				A95FFC70178BEF5B00E2E732 /* StoreKit.framework */,
 				A95FFC6E178BEF4E00E2E732 /* Social.framework */,
 				A95FFC6C178BEEF000E2E732 /* Security.framework */,
 				A91896B01740BF9F009F46F9 /* AdSupport.framework */,
@@ -915,6 +885,11 @@
 				CLASSPREFIX = ScringoSample;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Scringo;
+				TargetAttributes = {
+					4DBBE99416E3934D00BADD9C = {
+						DevelopmentTeam = X9K244888T;
+					};
+				};
 			};
 			buildConfigurationList = 4DBBE98F16E3934D00BADD9C /* Build configuration list for PBXProject "ScringoSample" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1284,6 +1259,8 @@
 		4DBBE9BA16E3934D00BADD9C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1298,6 +1275,7 @@
 				INFOPLIST_FILE = "ScringoSample/ScringoSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -1306,6 +1284,8 @@
 		4DBBE9BB16E3934D00BADD9C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)",
@@ -1316,6 +1296,7 @@
 				INFOPLIST_FILE = "ScringoSample/ScringoSample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
