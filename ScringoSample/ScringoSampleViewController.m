@@ -69,6 +69,14 @@
     [super dealloc];
 }
 
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    if ([Scringo isSidebarOpen]) {
+        return UIStatusBarStyleLightContent;
+    } else {
+        return UIStatusBarStyleDefault;
+    }
+}
+
 - (IBAction)addRiverFeed:(id)sender {
     [Scringo postToFeed:@"Yet another very nice river" withImage:kScringoSampleAppRiverFeedImageUrl withDescription:@"Menya River" withSubDesc:@"In Papua New Guinea" withActionVerb:@"View" withActionId:kScringoSampleAppRiverFeedImageUrl];
 }

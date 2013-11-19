@@ -13,6 +13,18 @@
 #import <Scringo/ScringoAds.h>
 #import <Scringo/ScringoUser.h>
 
+#ifdef __IPHONE_7_0
+@interface UINavigationController (styleFix)
+@end
+
+@implementation UINavigationController (styleFix)
+-(UIStatusBarStyle)preferredStatusBarStyle {
+    UIViewController *lastVC = [self.viewControllers lastObject];
+    return [lastVC preferredStatusBarStyle];
+}
+@end
+#endif
+
 @implementation ScringoSampleAppDelegate
 
 - (void)dealloc
