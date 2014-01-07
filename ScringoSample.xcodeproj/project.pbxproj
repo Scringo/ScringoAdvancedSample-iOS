@@ -245,6 +245,7 @@
 		A900DA1418717DB400AAAED6 /* wrongSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = A900D93618717DB400AAAED6 /* wrongSound.aif */; };
 		A900DA1518717DB400AAAED6 /* Scringo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A900D93718717DB400AAAED6 /* Scringo.bundle */; };
 		A900DA1618717DB400AAAED6 /* Scringo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A900D93818717DB400AAAED6 /* Scringo.framework */; };
+		A900DECE187C44DC00AAAED6 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A900DECD187C44DC00AAAED6 /* StoreKit.framework */; };
 		A989B412177ADF3C00AB3D88 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B40F177ADF3C00AB3D88 /* Icon-72.png */; };
 		A989B413177ADF3C00AB3D88 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B410177ADF3C00AB3D88 /* Icon.png */; };
 		A989B414177ADF3C00AB3D88 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A989B411177ADF3C00AB3D88 /* Icon@2x.png */; };
@@ -510,6 +511,7 @@
 		A900D93618717DB400AAAED6 /* wrongSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrongSound.aif; sourceTree = "<group>"; };
 		A900D93718717DB400AAAED6 /* Scringo.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Scringo.bundle; sourceTree = "<group>"; };
 		A900D93818717DB400AAAED6 /* Scringo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Scringo.framework; sourceTree = "<group>"; };
+		A900DECD187C44DC00AAAED6 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		A91896B01740BF9F009F46F9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		A95FFC6A178BEED200E2E732 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A95FFC6C178BEEF000E2E732 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -527,6 +529,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DBBE9D916E39A9300BADD9C /* CoreText.framework in Frameworks */,
+				A900DECE187C44DC00AAAED6 /* StoreKit.framework in Frameworks */,
 				4DBBE99E16E3934D00BADD9C /* CoreGraphics.framework in Frameworks */,
 				A900DA1618717DB400AAAED6 /* Scringo.framework in Frameworks */,
 				4DBBE99A16E3934D00BADD9C /* UIKit.framework in Frameworks */,
@@ -559,6 +562,7 @@
 		4DBBE99816E3934D00BADD9C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A900DECD187C44DC00AAAED6 /* StoreKit.framework */,
 				A9DB0BB217AFCBA500FBF73D /* FacebookSDK.framework */,
 				A95FFC6E178BEF4E00E2E732 /* Social.framework */,
 				A95FFC6C178BEEF000E2E732 /* Security.framework */,
@@ -900,6 +904,11 @@
 				TargetAttributes = {
 					4DBBE99416E3934D00BADD9C = {
 						DevelopmentTeam = X9K244888T;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
