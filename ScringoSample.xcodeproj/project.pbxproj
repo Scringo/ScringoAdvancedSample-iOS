@@ -1290,7 +1290,6 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/Scringo",
-					"/Users/guyfeder/Documents/Work/Samples/ScringoAdvancedSample-iOS/Scringo",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScringoSample/ScringoSample-Prefix.pch";
@@ -1316,7 +1315,6 @@
 					"$(inherited)",
 					"$(SRCROOT)",
 					"$(SRCROOT)/Scringo",
-					"/Users/guyfeder/Documents/Work/Samples/ScringoAdvancedSample-iOS/Scringo",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ScringoSample/ScringoSample-Prefix.pch";
