@@ -31,7 +31,7 @@
     [_riverImage setImage:img];
 
     [_riverLikeButton updateLikeObject:kScringoSampleAppRiverImageUrl type:SCRINGO_APP_LIKE_IMAGE description:@"A River"];
-    [_riverCommentButton updateImageCommentObject:kScringoSampleAppRiverImageUrl withTitle:@"The River"];
+    [_riverCommentButton updateImageCommentObject:kScringoSampleAppRiverImageUrl withTitle:@"The River" withCompletionBlk:nil];
     [_riverCommentButton setNavController:self.navigationController];
     [_riverCommentButton setScringoNavControllerEnabled:YES];
     _navBar.topItem.leftBarButtonItem = [Scringo scringoActivationBarItem];
